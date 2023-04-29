@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+    }
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500&family=Poppins:wght@400;600&display=swap');
+
+    .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #fefeff;;
+    }
+    .container {
+    height: 23rem;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 30px 30px 20px rgba(165, 155, 155, 0.2);
+    width: 33rem;
+    background: rgb(255, 255, 255);
+    }
+    .container div h1 {
+    font-size: 49px;
+    }
+    .result {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-image: linear-gradient(#5f3ffc, #533af6, #3e32ee, #312cea);
+    }
+    .result h3 {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    padding: 20px 0 20px 0;
+    }
+    .result div {
+    height: 140px;
+    width: 140px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+    background-image: linear-gradient(#4a23cc, #452cdf, #432de0, #4734f0);
+    border-radius: 50%;
+    margin-left: 4rem;
+    }
+    .result h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    .result p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    }
+    .summary {
+    height: 100%;
+    width: 50%;
+    }
+    .summary h2 {
+        font-family: 'Montserrat', sans-serif;
+    margin: 1.2rem 0 0 1.2rem;
+    }
+    .reaction,
+    .Memory,
+    .Verbal,
+    .Visual {
+    height: 5%;
+    display: flex;
+    width: 80%;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    }
+    .reaction p {
+    color: red;
+    }
+    .Memory p {
+    color: #f0c262;
+    }
+    .Verbal p {
+    color: #48cead;
+    }
+    .Visual p {
+    color: #666bd7;
+    }
+    .reaction {
+    background-color: #fff6f5;
+    }
+    .Memory {
+    background: #fffbf2;
+    }
+    .Verbal {
+    background-color: #f2fbfa;
+    }
+    .Visual {
+    background-color: #f3f3fd;
+    }
+    .mark {
+    margin-left: 1rem;
+    color: #000000;
+    }
+    .mark p {
+    color: #000000;
+    }
+    .mark span {
+    color: black;
+    font-weight: bolder;
+    }
+    button {
+    padding: 1rem;
+    color: white;
+    width: 80%;
+    background-color: #303b59;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 50px;
+    }
